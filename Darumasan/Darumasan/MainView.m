@@ -1287,6 +1287,8 @@ UIView * shokai;
     [ud setInteger:tairyoku forKey:@"KEY_tairyoku"];
     [ud synchronize];
     
+    
+    
     if (tairyoku == 0) {
         tairyoku1.hidden = YES;
     }
